@@ -1,0 +1,18 @@
+* {
+  outline: 3px solid green;
+  font-family: 'Prime Light';
+}
+
+body {
+  background-image: url('homepage.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#title-logo {
+  border: 2px solid red;
+  text-align: center;
+}
