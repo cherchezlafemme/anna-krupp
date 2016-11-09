@@ -1,3 +1,8 @@
 h1 {
   color: red;
 }
+
+.gradient-container {
+  background-size: 100%;
+  background-image: linear-gradient(to right, #ebfeff 0%, #b7eff1 91%);
+}
