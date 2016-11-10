@@ -2,7 +2,28 @@ h1 {
   color: red;
 }
 
-.gradient-container {
-  background-size: 100%;
-  background-image: linear-gradient(to right, #ebfeff 0%, #b7eff1 91%);
+#welcome {
+  height: 100%;
+  box-sizing: inherit;
+}
+
+
+.cut-out-background {
+    transform: rotate(-15deg) translateY(0);
+    background-color: #F6F6F6;
+    height: 100%;
+    left: -50%;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    width: 200%;
+    z-index: 3;
+    -moz-transform: rotate(7deg) translateY(145%);
+    -ms-transform: rotate(7deg) translateY(145%);
+    -webkit-transform: rotate(7deg) translateY(145%);
+    transform: rotate(7deg) translateY(145%);
+    -moz-transition: all 1000ms cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all 1000ms cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-transition: all 1000ms cubic-bezier(0.77, 0, 0.175, 1);
+   
 }
