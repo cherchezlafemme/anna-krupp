@@ -5,6 +5,22 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.45em;
+}
+
+body {
+    background: #fff;
+    color: #222;
+    cursor: auto;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
 .gradient-container {
@@ -16,3 +32,34 @@ html, body {
   z-index: -1;
   position: relative;
 }
+
+.full-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.show-border {
+  display: none;
+}
+
+#top, #bottom, #left, #right {
+  background: #a5ebff;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
